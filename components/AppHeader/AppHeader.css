@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 11px 0;
+}
+
+.header__logo {
+  cursor: pointer;
+}
+
+.header__inner {
+  display: flex;
+  gap: var(--gap-l);
+}
+
+.header__phone {
+  display: flex;
+  gap: 5px;
+  color: var(--blue);
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-regular);
+  cursor: pointer;
+}
+
+@media (max-width: 320px) {
+  .header {
+    display: none;
+  }
+}

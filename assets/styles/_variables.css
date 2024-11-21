@@ -1,0 +1,23 @@
+:root {
+  --black:#2F2222;
+  --white:#FFFFFF;
+  --blue:#5D71DD;
+  --light-blue:#7D8DE4;
+  --gray:#F5F5F5;
+  --dark-gray:#2F222266;
+  --light-gray:  #5D71DD0D;
+
+
+
+  --font-size-s: 16px;
+  --font-size-m: 18px;
+  --font-size-l: 24px;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 450;
+  --font-weight-bold: 600;
+
+  --gap-s: 20px;
+  --gap-m: 30px;
+  --gap-l: 40px;
+}

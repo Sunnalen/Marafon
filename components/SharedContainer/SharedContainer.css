@@ -1,0 +1,17 @@
+.shared__container {
+  padding: 0 260px;
+}
+
+@media (max-width: 1024px) {
+  .shared__container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 42px;
+  }
+}
+
+@media (max-width: 320px) {
+  .shared__container {
+    padding: 0 20px;
+  }
+}

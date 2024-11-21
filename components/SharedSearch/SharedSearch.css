@@ -1,0 +1,12 @@
+.search {
+  display: flex;
+  align-items: center;
+  color: var(--black);
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-regular);
+  cursor: pointer;
+}
+
+.search:hover {
+  color: var(--blue);
+}

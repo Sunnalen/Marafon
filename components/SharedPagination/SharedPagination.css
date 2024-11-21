@@ -1,0 +1,30 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination__list {
+  list-style: none;
+  display: flex;
+}
+
+.pagination__link {
+  font-size: var(--font-size-m);
+  text-decoration: none;
+  color: var(--black);
+  margin: 0 var(--gap-s);
+  cursor: pointer;
+}
+
+.pagination__link.is-current {
+  color: var(--blue);
+  border-bottom: 1px solid var(--blue);
+}
+
+.pagination__link-next, .pagination__link-prev {
+  font-size: var(--font-size-m);
+  padding: 10px 16px;
+  background-color: var(--light-gray);
+  color: var(--blue);
+  border-radius: 8px;
+}

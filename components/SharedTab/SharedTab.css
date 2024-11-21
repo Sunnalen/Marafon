@@ -1,0 +1,17 @@
+.tab {
+  color: var(--black);
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-regular);
+  cursor: pointer;
+}
+
+.tab:hover {
+  color: var(--blue);
+}
+
+.tab.active {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+  color: var(--blue);
+}
